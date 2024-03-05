@@ -4,15 +4,17 @@ using namespace std;
 int main()
 {
 	int n=10,a[n],i,j;
-	cout<<"enter element";
+	cout<<"enter size";
 	cin>>n;
 	for(i=0;i<n;i++)
 	{
+		cout<<"enter element "<<i<<" ";
 		cin>>a[i];
 	}
+	cout<<"array element\n";
 	for(i=0;i<n;i++)
 	{
-		cout<<a[i];
+		cout<<a[i]<<" ";
 	}
 	j=n;
 	for(i=j;i>=0;i--)
