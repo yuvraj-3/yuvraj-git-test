@@ -15,6 +15,7 @@ int main() {
     cout << "Enter Number " << i + 1 << " : ";
     cin >> arr[i];
   }
+  //no need for 2 loops refactor and optimize this code.
   for(i = 1;i < n; i++) 
   {
     if(arr[0] < arr[i])
